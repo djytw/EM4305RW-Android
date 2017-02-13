@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tk.djytw.em4305rw.MainActivity">
+    <item android:id="@+id/action_edit"
+        android:title="EM4305RW"
+        android:orderInCategory="80"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_share"
+        android:title="ID卡复制"
+        android:orderInCategory="90"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_settings"
+        android:title="关于"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"/>
+</menu>
